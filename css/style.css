@@ -3,3 +3,12 @@
   margin: 0;
   box-sizing: content-box;
 }
+header nav img{
+  display: flex;
+}
+header nav ul li {
+  display: flex;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif
+  ;
+}
