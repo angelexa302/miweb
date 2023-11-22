@@ -9,6 +9,11 @@ header {
   margin:15px;
   background-color: aqua;
 }
+header nav {
+  display: flex;
+  align-items: center;
+  
+}
 header nav img{
   margin:5px;
   border-radius: 15px;
@@ -16,6 +21,8 @@ header nav img{
   border-width: 1px;
   border-style: solid;
   border-color: blueviolet;
+}
+header nav ul {
   display: flex;
 }
 header nav ul li {
