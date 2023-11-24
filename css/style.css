@@ -3,18 +3,52 @@
   margin: 0;
   box-sizing: content-box;
 }
+
+header nav {
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+  margin: 6px;
+  justify-content: space-between;
+  border: 1px solid grey;
+  
+}
+header nav ul{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  list-style: none;
+  background-color: burlywood;
+  position: fixed;
+  left: 94%;
+  transform: translate(-95%, -5%);
+}
+header nav ul li {
+  margin: 0px;
+
+}
 header nav div {
   width: 10 rem;
-  margin: 10px;
-  background-color: aqua;
-  
+  margin: 10px 100px 10px 50px;
 }
 header nav img {
   width: 10rem;
   margin: 5px;
   border-radius: 15px;
   border: 2px solid blueviolet;
+}
+header nav ul li a{
+  margin-right:  100px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-large;
+  font-weight: bold;
+  color:rgb(23, 23, 23);
 
+}
+header nav ul li a:hover {
+  color: #fafafa;
+  transition: 300ms;
+}
   
 /* 
 header {
