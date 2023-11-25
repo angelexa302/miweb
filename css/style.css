@@ -17,7 +17,7 @@ header nav ul{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   list-style: none;
-  background-color: burlywood;
+  /* background-color: burlywood; */
   align-items: center;
   /* position: fixed;
   left: 94%;
@@ -50,9 +50,7 @@ header nav ul li a:hover {
   color: #fafafa;
   transition: 300ms;
 }
-main {
-  
-}
+
   
 /* 
 header {
