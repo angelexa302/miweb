@@ -48,6 +48,12 @@ main .titulo-principal {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
 }
+/* texto principal de la pagina */
+h1 {
+  color: rgb(15, 14, 14);
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
 footer {
   padding: 5px;
   margin: 5px;
@@ -63,8 +69,30 @@ footer ul li a{
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   color: rgb(36, 34, 34);
-
 }
+/*boton de registro e ingreso*/
+.boton-registro {
+  background-color: rgb(27, 137, 117);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 11px;
+  border-radius: 5px;
+  margin: 1px;
+}
+.boton-ingreso {
+  background-color: rgb(101, 88, 245);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 11px;
+  border-radius: 5px;
+  margin: 1px;
+}
+  .botones {
+    display: flex;
+    justify-content: flex-end;
+  }
+/*acomoda los botones a la izquierda*/
+
 footer .copyright {
   grid-row: 2/3;
   grid-column: 1/4;
