@@ -7,8 +7,17 @@
  /*Regla de media query*/
  /*mobile*/
  @media only screen and (max-width: 500px) {
-  /* body {
-  } */
+  h3 {
+    font-size: 1.2em;
+  }
+
+  ul li {
+    margin: 3px 0;
+  }
+
+  .fa-beat-fade {
+    opacity: 0.8; /* Ajustar la opacidad para un aspecto más sutil en pantallas pequeñas */
+  }
   header nav .panel-horizontal{
     display: none;
   }
@@ -16,6 +25,7 @@
     text-align: left;
     font-size: 75%;
     margin: 3px;
+    margin-bottom: 10px;
   }
  }
 
@@ -67,34 +77,6 @@ header nav ul li a:hover {
   color: #fafafa;
   transition: 300ms;
 }
-main .titulo-principal {
-  font-weight: bold;
-  align-items: center;
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-}
-/* texto principal de la pagina */
-h1 {
-  color: rgb(15, 14, 14);
-  font-family: "Open Sans", sans-serif;
-  text-align: center;
-}
-footer {
-  padding: 5px;
-  margin: 5px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 1, 15px 10px;
-  background-color: rgb(25, 135, 84);
-}
-footer ul {
-  margin: 10px;
-}
-footer ul li a{
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  color: rgb(36, 34, 34);
-}
 /*boton de registro e ingreso*/
 .boton-registro {
   background-color: rgb(27, 137, 117);
@@ -112,12 +94,46 @@ footer ul li a{
   border-radius: 5px;
   margin: 1px;
 }
+/*acomoda los botones a la izquierda*/
   .botones {
     display: flex;
     justify-content: flex-end;
-  }
-/*acomoda los botones a la izquierda*/
+}
+main .titulo-principal {
+  font-weight: bold;
+  align-items: center;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* texto principal de la pagina */
+h1 {
+  color: rgb(15, 14, 14);
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
+main .informacion1 , .informacion2 {
+  margin: 10px 150px 50px 150px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
+footer {
+  padding: 5px;
+  margin: 5px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1, 15px 10px;
+  background-color: rgb(25, 135, 84);
+}
+
+footer ul {
+  margin: 10px;
+}
+footer ul li a{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: rgb(36, 34, 34);
+}
 footer .copyright {
   grid-row: 2/3;
   grid-column: 1/4;
@@ -128,41 +144,3 @@ footer .copyright {
   text-decoration: none;
   color:rgb(23, 23, 23);
 }
-/* 
-header {
-  justify-content: space-around;
-  align-items: center;
-  display: flex;
-  border-bottom: 1px solid black;
-  margin:5px;
-  background-color: aqua;
-
-}
-header img{
-  width: 10 rem;
-  margin:10px;
-  border-radius: 15px;
-  border-width: 1px;
-  border-style: solid;
-  border-color: blueviolet;
-}
-
-header nav{
-display: flex;
-margin: 0;
-display: contents;
-}
-header nav ul {
-  display: flex;
-  text-decoration: none;
-  list-style: none;
-  margin:50px;
-  text-align: center;
-  font-size: x-large;
-  font-weight: bold;
-}
-header nav ul a {
-  color: rgb(30, 27, 27);
-  margin: 25px;
-  font-family: Arial, Helvetica, sans-serif;
- */
