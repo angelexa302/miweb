@@ -145,3 +145,37 @@ footer .copyright {
   text-decoration: none;
   color:rgb(23, 23, 23);
 }
+main .img1 {
+  width: 600px;
+  margin: 30px;
+}
+main .img2 {
+  width: 600px;
+  margin: 30px;
+  margin-left: 60px;
+}
+.grid-informacion {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+}
+main .informacion1 {
+  margin-top: 50px;
+  margin-right: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:large;
+  justify-content: center;
+  grid-column: 1/2;
+}
+main .informacion2 {
+  margin-top: 50px;
+  margin-left: 0px;
+  grid-column: 2/2;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  justify-content: center;
+  grid-row: 2/3;
+}
+main .informacion3 {
+  grid-column: 1/2;
+  grid-row: 2/2;
+}
