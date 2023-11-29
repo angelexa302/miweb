@@ -21,13 +21,17 @@
   header nav .panel-horizontal {
     display: none;
   }
-
-  footer .mobile{
+  footer .mobile {
+    background-color: rgb(25, 135, 84);
+  }
+  footer {
     text-align: center;
     width: 1.2em;
     padding: 1px;
     margin: 1px;
-
+  }
+  footer .copyright {
+    background-color: rgb(25, 135, 84);
   }
   main section p {
     font-size: small;
@@ -134,7 +138,7 @@ footer {
   margin: 5px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 10px, 15px 10px;
+  grid-template-rows: auto auto;
   background-color: rgb(25, 135, 84);
 }
 
