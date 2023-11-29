@@ -18,21 +18,37 @@
   .fa-beat-fade {
     opacity: 0.8; /* Ajustar la opacidad para un aspecto más sutil en pantallas pequeñas */
   }
-  header nav .panel-horizontal{
+  header nav .panel-horizontal {
     display: none;
   }
+
   footer .mobile{
-    text-align: left;
-    font-size: 75%;
-    margin: 3px;
-    margin-bottom: 10px;
+    text-align: center;
+    width: 1.2em;
+    padding: 1px;
+    margin: 1px;
+
   }
+  main section p {
+    font-size: small;
+    justify-content: center;
+    text-align: start;
+    margin: 0px;
+  }
+  .grid-informacion
+   .informacion1{
+    margin: 0px;
+  }
+
  }
 
  /*Tablet*/
  @media only screen and (min-width: 501px) and (max-width: 960px) {
   header nav .panel-horizontal{
     display: none;
+ }
+ h3 {
+  font-size: small;
  }
 }
  /* PC */
@@ -123,7 +139,7 @@ footer {
   margin: 5px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 1, 15px 10px;
+  grid-template-rows: 10px, 15px 10px;
   background-color: rgb(25, 135, 84);
 }
 
